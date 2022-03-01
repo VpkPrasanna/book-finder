@@ -4,7 +4,6 @@ import isEmpty from 'lodash/isEmpty'
 import './book.css'
 
 
-const createMarkup = (markup) => ({__html: markup});
 
 const Book = ({ match: { params } }) => {
 
@@ -37,7 +36,6 @@ const Book = ({ match: { params } }) => {
       title,
       subtitle,
       imageLinks,
-      description
     } = bookInfo.volumeInfo;
 
     jsxStr = (
