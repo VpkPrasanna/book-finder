@@ -21,7 +21,7 @@ const Search = ({ getBooks, query,getCovers,getAllBooks }) => {
   }
 
   useEffect(()=>{
-    // eslint-disable-line react-hooks/exhaustive-deps
+    /*eslint-disable */
     getAllBooks()
   },[])
 
